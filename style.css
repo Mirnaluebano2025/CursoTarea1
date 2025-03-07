@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-card{
+    width: 300px;
+    height: auto;
+    background-color: #a2adae7e;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 1, 1);
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+}
+
+.profile-image{
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1; /* Se ajusta al mismo valor que el width */
+    object-fit: cover;
+    padding: 5%;
+}
+
+.profile-name{
+    font-family:"Amatic SC", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #292c37;
+    padding: 10px;
+    text-align: center;
+
+}
+.profile-description{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474756;
+    padding: 20px;
+    text-align: center;
+}
+.boton{
+    width: 100%;
+    padding: 10px;
+    background-color: #292c37;
+    color: #fff;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.boton:hover{
+    background-color: #1d1db5 !important;
+    color: aqua;
+}
